@@ -1,0 +1,19 @@
+{
+  "id": "AVD-OSK-0001",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "No plaintext password for compute instance",
+  "description": "Assigning a password to the compute instance using plaintext could lead to compromise; it would be preferable to use key-pairs as a login mechanism",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Including a plaintext password could lead to compromised instance",
+    "references": [],
+    "externalToolIds": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsecurity": [
+        "openstack-compute-no-plaintext-password"
+      ]
+    }
+  }
+}
